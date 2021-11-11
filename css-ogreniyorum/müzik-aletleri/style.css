@@ -1,0 +1,69 @@
+body {
+    background-color: #FFD07F;
+    font-family: 'Poppins', sans-serif;
+}
+.Baslik {
+    color: #483434;
+    margin-right: 30px;
+    font-weight: 400;
+}
+.Secenekler li {
+    color: #483434;
+    margin: 10px;
+}
+img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;;
+}
+#yazı {
+    margin-bottom: 460px;
+}
+footer {
+    background-color: lavender;
+    text-align: center;
+    font-size: small;
+
+}
+main {
+    text-align: center;
+    list-style-position: inside;
+    font-weight: bold;
+}
+
+/* 
+External CSS -> head içinde başka bir dosyaya link verilerek kullanılması
+Internal CSS -> head içinde style etikleri arasında yazılması
+Inline CSS   -> etiket içinde style kullanımı
+*/
+
+/*************** BÖYLE DE KULLANILABİLİYOR ***************/
+
+/*      
+    ÖRNEK CSS KULLANIMI 
+        p {
+            color: red;
+            font-size: 50px;
+        }
+        h2, h3, h4 {
+            text-align: center;
+            margin: 10px;
+        }
+*/
+
+/*
+CSS'de beş genel yazı tipi ailesi vardır:
+
+Serif yazı tiplerinin her harfin kenarlarında küçük bir kontur vardır. Bir formalite ve zarafet duygusu yaratırlar.
+Sans-serif yazı tiplerinin temiz satırları vardır (küçük konturlar eklenmez). Modern ve minimalist bir görünüm yaratırlar.
+Monospace yazı tipleri burada tüm harfler aynı sabit genişliğe sahiptir. Mekanik bir görünüm yaratırlar.
+Cursive yazı insan el yazısı taklidi gibidir.
+Fantasy yazı tipleri dekoratif, eğlenceli yazı tipleridir.
+*/
+
+/* class -> .class-adi {}
+   id -> #id-adi {} 
+*/
+
+
+
