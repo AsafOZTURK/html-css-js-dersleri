@@ -1,0 +1,61 @@
+body {
+    background-color: #050505;
+}
+.music-box {
+    background-color:seashell;
+    padding: 6px;
+    align-items: center;
+    display: flex;
+    border-radius: 12px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+.gorsel {
+    height: 64px;
+    width: 64px;
+    position: relative;
+    
+}
+.resim {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.dongu {
+    position: absolute;
+    inset: 0 0 0 0;
+    border-radius: 8px;
+    background-color: #00000055;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar {
+    width: 6px;
+    height: 24px;
+    background-color: white;
+    margin: 3px;
+    border-radius: 3px;
+    animation: bar 1400ms infinite;
+}
+.bar:nth-child(even) {
+    animation-delay: 700ms;
+}
+@keyframes bar {
+    0% {height: 10px;}
+    50% {height: 24px;}
+    100% {height: 10px;}
+}
+.yazı {
+    padding-right: 20px;;
+    margin-left: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.baslik {
+    margin-bottom: 5px;
+}
+.sanatci {
+    color: #000000aa;
+    font-weight: 400;
+}
