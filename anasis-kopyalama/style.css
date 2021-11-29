@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar {
+    height: auto;
+    padding: 24px;
+    margin-bottom: 10px;
+    background-color: #5D050D;
+}
+.logo {
+    margin-top: -24px;
+    float: left;
+    width: 168px;
+    height: 45px;
+}
+.main-logo {
+    height: 100%;
+    width: 100%;
+}
+.baslik {
+    float: left;
+    color: #ffffff;
+    margin: 0 0 10;
+    background-color: #5D050D;
+    margin-top: -10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.login-btn {
+    float: right;
+    color: #ffffff;
+    padding: 14px;
+    margin: -26px 45px 0px 35px;
+    background-color: #9B0814;
+    font-size: 12px;
+    font-weight: 400;
+}
+/* .login-btn :link :hover :visited ::before{
+    color: #ffffff;;
+} */
+.uyari { 
+    background-color: #F2DEDE;
+    border-color: #ebccd1;
+    text-align: center;
+    padding: 15px 15px 30px 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 0px 150px 0px 150px;
+}
+.uyari h4 {
+    color:#A94442;
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-weight: 400;
+
+}
+.uyari h5 {
+    color:#A94442;
+    font-size: 14px;
+    font-weight: 400;
+}
+.bir  {
+    color: #333333;
+    display: block;
+    padding: 10px 80px 30px 80px;
+    margin: 20px 150px 0px 150px;
+    background-color: #f0f0f0;
+    height: auto;
+    font-size: 12px;
+    font-weight:lighter;
+    line-height: 22px; 
+}
+.bir ul {
+    font-size: 13px;
+}
+.grnt {
+    line-height: 15px; 
+    margin-left: 11%;
+}
+#yeni {
+    float: left;
+    color: #ff0000;
+    font-size: 17px;
+    font-weight: 500;
+}
+#son {
+    margin-top: 2px;;
+}
+#sn-ksm {
+    margin-top: 10px;
+}
+.iki {
+    text-align: center;
+    display: block;
+    padding: 20px 50px 20px 50px;
+    margin: 0px 150px 10px 150px;
+    background-color: #b6dcee;
+    font-size: 12px;
+    font-weight: 300;
+}
+.btnlar {
+    text-align: center;
+    font-size: 12px;
+    display: block;
+    align-items: center;
+}
+.btn-bir {
+    display: inline-block;
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    margin: 0px 0px 10px 0px;
+    padding: 10px 50px;
+    width: 16%;
+    border: 3px solid #ffffff;
+}
+.btn-iki {
+    display: inline-block;
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    margin: 10px 0px;
+    padding: 10px 50px;
+    border: 3px solid #f01300;
+    width: 16%;
+}
+.btn-uc {
+    display: inline-block;
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    margin: 10px 0px 20px 0px;
+    padding: 10px 50px;
+    border: 3px solid #f01300;
+    width: 16%;
+}
+.bosluk {
+
+}
+.dil {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 12px;
+    color: #337AB7;
+}
+ul {
+    margin-left: 50px;
+}
