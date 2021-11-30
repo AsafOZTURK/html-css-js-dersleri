@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form Öğreniyorum</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="author" content="Mehmet Asaf ÖZTÜRK">
+    <style>
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Kayıt Formu</h1>
+        <form action="" method="post" >
+            Ad Soyad:<input autofocus type="text" min="3" max="20" placeholder="İsminiz..." name="isim"><br>
+            E posta:<input required type="email" name="mail"><br>
+            Şifre: <input type="password" name="sifre"><br><br>
+            Doğum Tarihi <input type="date" name="tarih"><br><bR>
+
+            Cinsiyet: 
+            Erkek<input type="radio" name="cnst" id="erkek"> 
+            Kadın<input type="radio" name="cnst" id="kadın"><br><br>
+
+            İngilizce Seviyeniz:
+            <select name="ing-seviye">
+                <option value="">Temel</option>
+                <option value="">Orta</option>
+                <option value="">Gelişmiş</option>
+            </select><br><br>
+
+            Yetenekleriniz:<br>
+            HTML<input type="checkbox" name="secenek">
+            CSS<input type="checkbox" name="secenek">
+            JS<input type="checkbox" name="secenek">
+            PHP<input type="checkbox" name="secenek">
+            PYTHON<input type="checkbox" name="secenek"><br><bR>
+
+            <textarea name="" id="" cols="20" rows="5">BURAYA KENDİNİZ HAKKINDA İSTEDĞİNİZ ŞEYLERİ YAZIN
+            </textarea><br>
+
+            <br><bR><input type="submit" value="FORMU GÖNDER">
+        </form>
+        <hr>
+    </center>
+</body>
+</html>
+
+<!--
+    name benzersiz olmalı
+    required zorunlu doldurulmasını sağlıyor
+    autofocus sayfa yenilenince imleci buraya getirir
+    placeholder formun içinde bilgilendirme. yazı yazılınca siinir
+
+-->
